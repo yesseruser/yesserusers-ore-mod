@@ -1,2 +1,2 @@
  # yesseruser's Ore mod
- TODO.
+This mod is under development currently.
