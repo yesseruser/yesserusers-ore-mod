@@ -47,6 +47,7 @@ public class YesserusersOreMod
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RUBY);
+            event.accept(ModItems.SAPPHIRE);
         }
     }
 
