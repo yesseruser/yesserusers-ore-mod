@@ -1,5 +1,8 @@
 {
   "creativetab.gem_tab": "yesseruser's Gems",
+  "creativetab.block_tab": "yesseruser's Gem Blocks",
+
+  "block.yesserusersoremod.ruby_block": "Ruby Block",
 
   "item.yesserusersoremod.ruby": "Ruby",
   "item.yesserusersoremod.sapphire": "Sapphire"

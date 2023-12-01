@@ -1,6 +1,7 @@
 package cz.yesseruser.yesserusersoremod;
 
 import com.mojang.logging.LogUtils;
+import cz.yesseruser.yesserusersoremod.block.ModBlocks;
 import cz.yesseruser.yesserusersoremod.item.ModCreativeTabs;
 import cz.yesseruser.yesserusersoremod.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
@@ -31,6 +32,7 @@ public class YesserusersOreMod
         ModCreativeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

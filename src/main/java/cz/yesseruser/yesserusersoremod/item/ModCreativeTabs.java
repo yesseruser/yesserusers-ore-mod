@@ -1,6 +1,7 @@
 package cz.yesseruser.yesserusersoremod.item;
 
 import cz.yesseruser.yesserusersoremod.YesserusersOreMod;
+import cz.yesseruser.yesserusersoremod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,17 @@ public class ModCreativeTabs {
                             .displayItems((pParameters, pOutput) -> {
                                 pOutput.accept(ModItems.RUBY.get());
                                 pOutput.accept(ModItems.SAPPHIRE.get());
+                            })
+                            .build()
+            );
+
+    public static final RegistryObject<CreativeModeTab> BLOCK_TAB =
+            CREATIVE_MODE_TABS.register(
+                    "block_tab",
+                    () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.RUBY_BLOCK.get()))
+                            .title(Component.translatable("creativetab.block_tab"))
+                            .displayItems((pParameters, pOutput) -> {
+                                pOutput.accept(ModBlocks.RUBY_BLOCK.get());
                             })
                             .build()
             );

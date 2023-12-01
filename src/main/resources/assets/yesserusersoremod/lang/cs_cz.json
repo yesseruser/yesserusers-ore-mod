@@ -1,5 +1,8 @@
 {
   "creativetab.gem_tab": "yesseruserovy Drahokamy",
+  "creativetab.block_tab": "yesserusery Bloky Drahokamů",
+
+  "block.yesserusersoremod.ruby_block": "Rubínový Blok",
 
   "item.yesserusersoremod.ruby": "Rubín",
   "item.yesserusersoremod.sapphire": "Safír"
