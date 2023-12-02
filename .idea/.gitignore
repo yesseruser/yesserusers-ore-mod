@@ -3,3 +3,7 @@
 /workspace.xml
 /jarRepositories.xml
 /modules.xml
+/gradle.xml
+/vcs.xml
+/compiler.xml
+/inspectionProfiles/
