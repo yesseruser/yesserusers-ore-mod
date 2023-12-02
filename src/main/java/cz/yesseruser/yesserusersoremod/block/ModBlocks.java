@@ -20,12 +20,14 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock(
             "ruby_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK))
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)
+                    .strength(4.0F).requiresCorrectToolForDrops())
     );
 
     public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock(
             "sapphire_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK))
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)
+                    .strength(4.0F).requiresCorrectToolForDrops())
     );
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
